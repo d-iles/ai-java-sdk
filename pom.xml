@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.vacuity.ai.sdk</groupId>
+    <groupId>d.wwood.ai.sdk</groupId>
     <artifactId>ai-java-sdk</artifactId>
     <version>1.7.6</version>
 
     <name>ai-java-sdk</name>
     <description>a java sdk for ai apis.</description>
-    <url>https://github.com/vacuityv/ai-java-sdk</url>
+    <url>https://github.com/d-iles/ai-java-sdk</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -19,14 +19,14 @@
     </licenses>
     <developers>
         <developer>
-            <name>vacuityv</name>
-            <email>vacuityv@icloud.com</email>
+            <name>d-iles</name>
+            <email>d-iles@icloud.com</email>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/vacuityv/ai-java-sdk.git</connection>
-        <developerConnection>scm:git:ssh://github.com:vacuityv/ai-java-sdk.git</developerConnection>
-        <url>http://github.com/vacuityv/ai-java-sdk/tree/master</url>
+        <connection>scm:git:git://github.com/d-iles/ai-java-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com:d-iles/ai-java-sdk.git</developerConnection>
+        <url>http://github.com/d-iles/ai-java-sdk/tree/master</url>
     </scm>
     <distributionManagement>
         <repository>
@@ -128,7 +128,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>3.1.0</version>
@@ -145,7 +145,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>org.sonatype.central</groupId>
                 <artifactId>central-publishing-maven-plugin</artifactId>
