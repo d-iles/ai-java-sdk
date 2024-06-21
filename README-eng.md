@@ -35,7 +35,7 @@ Google gemini and part of OpenAI.
 
 ```xml
 <dependency>
-    <groupId>me.vacuity.me.ai.sdk</groupId>
+    <groupId>d.wwood.me.ai.sdk</groupId>
     <artifactId>ai-java-sdk</artifactId>
     <version>${version}</version>       
 </dependency>
